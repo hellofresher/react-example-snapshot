@@ -1,0 +1,11 @@
+.Nav {
+  list-style-type: none;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.Nav__item {
+  padding: 5px;
+  margin: 0 5px;
+}

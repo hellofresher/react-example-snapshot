@@ -1,0 +1,33 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.App__Display {
+  flex: 1 0 0;
+  padding: 0 2px 4px;
+}
+
+.Page__title {
+  font-size: 30px;
+  text-align: center;
+  text-transform: capitalize;
+}

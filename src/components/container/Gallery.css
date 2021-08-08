@@ -1,0 +1,21 @@
+.Gallery ul {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  -ms-align-items: flex-start;
+  align-items: flex-start;
+}
+
+.Gallery ul li {
+  width: 220px;
+  height: 165px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.Gallery ul img {
+  width: 100%;
+  transform: scale(1.25);
+  transition: transform 1.25s;
+}

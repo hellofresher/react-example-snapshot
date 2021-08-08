@@ -1,0 +1,22 @@
+#App__header {
+  text-align: center;
+}
+
+#App__header h1 {
+  font-size: 40px;
+}
+
+.Search__form input,
+.Search__form button {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+}
+
+.Search__form input {
+  min-width: 300px;
+}
+
+.Search__form button {
+  cursor: pointer;
+  border-left-width: 0;
+}
